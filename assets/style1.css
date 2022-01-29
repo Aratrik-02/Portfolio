@@ -3,7 +3,7 @@
   .loader-wrapper {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: #242f3f;
@@ -16,7 +16,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    position: relative;
+    position: fixed;
     border: 4px solid #Fff;
     animation: loader 2s infinite ease;
     z-index: 1001;
