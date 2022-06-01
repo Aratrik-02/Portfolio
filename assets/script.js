@@ -79,6 +79,9 @@ $(document).ready(function(){
     owl.owlCarousel({
         loop:true,
         margin:10,
+        autoplay: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
         responsive:{
             0:{
                 items:1
